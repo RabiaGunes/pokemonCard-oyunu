@@ -23,9 +23,12 @@ public class Proje {
         
         if(secim == 1){
              oyuncu oyuncuInsan = new insan(1,"insan",0); 
+             bilgisayar oyuncuBilgisayar = new bilgisayar(0,"bilgisayar",0);
+             
         }
         if(secim == 0){
              bilgisayar oyuncuBilgisayar = new bilgisayar(0,"bilgisayar",0);
+             bilgisayar oyuncuBilgisayar1 = new bilgisayar(0,"bilgisayar1",0);
         } 
         
         
